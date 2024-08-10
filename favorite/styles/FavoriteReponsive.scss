@@ -1,0 +1,874 @@
+$res_320 : "only screen and (min-width: 320px) and (max-width: 374px)";
+$res_375 : "only screen and (min-width: 375px) and (max-width: 424px)";
+$res_425 : "only screen and (min-width: 425px) and (max-width: 767px)";
+$res_768 : "only screen and (min-width: 768px) and (max-width: 991px)";
+$res_992 : "only screen and (min-width: 992px) and (max-width: 1023px)";
+$res_1024 : "only screen and (min-width: 1024px) and (max-width: 1279px)";
+$res_1280: "only screen and (min-width: 1280px) and (max-width: 1500px)";
+
+
+@mixin responsive_320() {
+    @media #{$res_320} {
+        @content;
+    }
+}
+
+@mixin responsive_375() {
+    @media #{$res_375} {
+        @content;
+    }
+}
+
+@mixin responsive_425() {
+    @media #{$res_425} {
+        @content;
+    }
+}
+
+@mixin responsive_768() {
+    @media #{$res_768} {
+        @content;
+    }
+}
+
+@mixin responsive_992() {
+    @media #{$res_992} {
+        @content;
+    }
+}
+
+@mixin responsive_1024() {
+    @media #{$res_1024} {
+        @content;
+    }
+}
+
+
+@mixin responsive_1280() {
+    @media #{$res_1280} {
+        @content;
+    }
+}
+
+// @include responsive_768 {
+//     body {
+//         margin: 0;
+
+//         #Fovourite {
+//             height: 491.52px;
+
+//             .Fovourite_header {
+//                 height: 178.432px;
+//                 margin-top: 6.9632px;
+
+//                 .fovourite_header-text {
+//                     margin-top: 6.144px;
+//                     margin-left: 24.8832px;
+//                 }
+//             }
+
+//             .Favourite_body {
+//                 width: 429.12px;
+//                 margin-top: -150.4px;
+//                 margin-left: 161.28px;
+
+//                 .body_header {
+//                     height: 196.39296px;
+//                     margin-top: 24.32px;
+//                     margin-left: 24.32px;
+
+//                     .body_header-content h3 {
+//                         font-size: 11.1616px;
+//                     }
+
+//                     img {
+//                         margin-top: -21.79072px;
+//                         margin-left: 65.28px;
+//                         width: 44.16px;
+//                     }
+//                 }
+
+//                 .body_header-banner {
+//                     margin-top: 24.128px;
+
+//                     .banner-img {
+//                         margin-right: 11.12576px;
+//                     }
+
+//                     .baner-content {
+//                         margin-top: 7.5776px;
+
+//                         .font-max {
+//                             font-size: 7.424px;
+//                         }
+
+//                         .font-min {
+//                             font-size: 5.56032px;
+//                         }
+//                     }
+
+//                     button {
+//                         margin-left: 168.448px;
+//                         margin-top: -76.032px;
+//                     }
+
+//                     .body_footer {
+//                         top: 313.6px;
+//                         left: 51.0976px;
+
+//                         h2 {
+//                             font-size: 11.1232px;
+//                         }
+
+//                         p {
+//                             font-size: 5.5552px;
+//                         }
+//                     }
+
+//                     .app_review {
+//                         .dot1 {
+//                             top: 284.9792px;
+//                             left: 247.04px;
+//                         }
+
+//                         .dot2 {
+//                             top: 284.9792px;
+
+//                             left: 378.24px;
+
+//                         }
+
+//                         .dot3 {
+//                             top: 426.208px;
+
+//                             left: 239.36px;
+
+//                         }
+
+//                         .dot4 {
+//                             top: 408.576px;
+
+//                             left: 390.656px;
+//                         }
+
+//                         .circle1 {
+//                             width: 101.888px;
+
+//                             height: 100.352px;
+
+//                             top: 303.616px;
+
+//                             left: 268.288px;
+
+//                         }
+
+//                         .circle2 {
+//                             width: 124.416px;
+
+//                             height: 122.88px;
+//                             top: 292.352px;
+
+//                             left: 256.512px;
+
+//                         }
+
+//                         .circle3 {
+//                             width: 147.2px;
+
+//                             height: 145.92px;
+
+//                             top: 281.6px;
+
+//                             left: 244.48px;
+
+//                         }
+
+//                         .mobile-app {
+//                             width: 76.288px;
+
+//                             height: 159.872px;
+
+//                             top: 255.36px;
+
+//                             left: 263.68px;
+
+
+//                             img {
+//                                 width: 111.104px;
+
+//                                 height: 204.8px;
+
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .Fovourite_sidebar {
+//                 width: 47.5136px;
+
+//                 height: 332.8px;
+
+//                 margin-top: 87.04px;
+
+//                 margin-left: 72.704px;
+
+//                 .sidebar-text h1 {
+//                     font-size: 53.248px;
+
+//                 }
+//             }
+
+//             .Fovourite_footer {
+//                 height: 157.184px;
+
+//                 margin-top: -11.8784%;
+
+//             }
+//         }
+//     }
+
+// }
+
+// @include responsive_992 {
+//     body {
+//         margin: 0;
+
+//         #Fovourite {
+//             height: 614.4px;
+
+//             .Fovourite_header {
+//                 height: 223.04px;
+//                 margin-top: 8.704px;
+
+//                 .fovourite_header-text {
+//                     margin-top: 7.68px;
+//                     margin-left: 31.104px;
+//                 }
+//             }
+
+//             .Favourite_body {
+//                 width: 536.4px;
+//                 margin-top: -188px;
+//                 margin-left: 201.6px;
+
+//                 .body_header {
+//                     height: 245.4912px;
+//                     margin-top: 30.4px;
+//                     margin-left: 30.4px;
+
+//                     .body_header-content h3 {
+//                         font-size: 13.952px;
+//                     }
+
+//                     img {
+//                         margin-top: -27.2384px;
+//                         margin-left: 81.6px;
+//                         width: 55.2px;
+//                     }
+//                 }
+
+//                 .body_header-banner {
+//                     margin-top: 30.16px;
+
+//                     .banner-img {
+//                         margin-right: 13.9072px;
+//                     }
+
+//                     .baner-content {
+//                         margin-top: 9.472px;
+
+//                         .font-max {
+//                             font-size: 9.28px;
+//                         }
+
+//                         .font-min {
+//                             font-size: 6.9504px;
+//                         }
+//                     }
+
+//                     button {
+//                         margin-left: 210.56px;
+//                         margin-top: -95.04px;
+//                     }
+
+//                     .body_footer {
+//                         top: 392px;
+//                         left: 63.872px;
+
+//                         h2 {
+//                             font-size: 13.904px;
+//                         }
+
+//                         p {
+//                             font-size: 6.944px;
+//                         }
+//                     }
+
+//                     .app_review {
+//                         .dot1 {
+//                             top: 356.224px;
+//                             left: 308.8px;
+//                         }
+
+//                         .dot2 {
+//                             top: 356.224px;
+//                             left: 472.8px;
+//                         }
+
+//                         .dot3 {
+//                             top: 533.76px;
+//                             left: 299.2px;
+//                         }
+
+//                         .dot4 {
+//                             top: 510.72px;
+//                             left: 488.32px;
+//                         }
+
+//                         .circle1 {
+//                             width: 127.36px;
+//                             height: 125.44px;
+//                             top: 379.52px;
+//                             left: 335.36px;
+//                         }
+
+//                         .circle2 {
+//                             width: 155.52px;
+//                             height: 153.6px;
+//                             top: 365.44px;
+//                             left: 320.64px;
+//                         }
+
+//                         .circle3 {
+//                             width: 184px;
+//                             height: 182.4px;
+//                             top: 352px;
+//                             left: 305.6px;
+//                         }
+
+//                         .mobile-app {
+//                             width: 95.36px;
+//                             height: 199.84px;
+//                             top: 319.2px;
+//                             left: 329.6px;
+
+//                             img {
+//                                 width: 138.88px;
+//                                 height: 256px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .Fovourite_sidebar {
+//                 width: 59.392px;
+//                 height: 416px;
+//                 margin-top: 108.8px;
+//                 margin-left: 90.88px;
+
+//                 .sidebar-text h1 {
+//                     font-size: 66.56px;
+//                 }
+//             }
+
+//             .Fovourite_footer {
+//                 height: 196.48px;
+//                 margin-top: -14.848%;
+//             }
+//         }
+//     }
+
+// }
+
+@include responsive_1024 {
+    body {
+        margin: 0;
+
+
+        #Fovourite {
+            width: 100%;
+            height: 768px;
+
+            .Fovourite_header {
+                width: 100%;
+                height: 270.8px;
+                margin-top: 10.88px;
+                background-image: url("../background_img/Background.png");
+                background-size: 100%;
+                background-repeat: no-repeat;
+
+                .fovourite_header-text {
+                    position: absolute;
+                    margin-top: 9.6px;
+                    margin-left: 39.68px;
+                    font-size: 12.8px;
+                    line-height: 23.44px;
+
+
+                }
+            }
+
+            .Favourite_body {
+                width: 671px;
+                height: 100%;
+                margin-top: -235.52px;
+                margin-left: 252px;
+
+
+                .body_header {
+                    width: 90%;
+                    height: 306.87px;
+                    margin-top: 38.72px;
+                    margin-left: 37.74px;
+
+                    .body_header-content {
+                        width: 183.68px;
+                        height: 23.17px;
+
+                        h3 {
+                            width: 184.96px;
+                            height: 18.56px;
+                            font-family: Poppins;
+                            font-size: 17.38px;
+
+                            line-height: 28.31px;
+                        }
+
+                        img {
+                            width: 68.83px;
+                            height: 11.57px;
+                            margin-top: -33.52px;
+                            margin-left: 101.68px;
+                        }
+                    }
+
+                    .body_header-banner {
+                        // width: 302.16px;
+                        // height: 208.32px;
+                        display: flex;
+                        justify-content: space-around;
+                        margin-top: 37.697px;
+
+                        .banner-img {
+                            margin-right: 17.38px;
+                            width: 100%;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .baner-content {
+
+                            font-size: 11.59px;
+                            line-height: 28.31px;
+                            margin-top: 11.84px;
+
+                            .font-max {
+                                font-size: 11.59px;
+                                line-height: 18.12px;
+                            }
+
+                            .font-min {
+                                font-size: 8.69px;
+                                line-height: 28.31px;
+
+
+                            }
+                        }
+
+                        button {
+                            padding: 0;
+                            margin-left: 263px;
+                            margin-top: -119px;
+                        }
+
+                        .body_footer {
+                            width: 183.68px;
+                            height: 138.70px;
+                            top: 490.88px;
+                            left: 79.84px;
+                            top: 490.88px;
+                            left: 79.86px;
+
+                            h2 {
+
+                                font-size: 17.38px;
+
+                                line-height: 40.76px;
+
+                            }
+
+                            p {
+
+                                font-size: 8.69px;
+                                line-height: 19.81px;
+
+                            }
+
+
+                        }
+
+                        .app_review {
+                            .dot1 {
+                                position: absolute;
+                                top: 445.228px;
+                                left: 386.3808px;
+
+                            }
+
+                            .dot2 {
+                                position: absolute;
+                                top: 445.228px;
+                                left: 591.0848px;
+
+                            }
+
+                            .dot3 {
+                                position: absolute;
+                                top: 667.6864px;
+                                left: 374.0608px;
+                            }
+
+                            .dot4 {
+                                position: absolute;
+                                top: 639.0656px;
+                                left: 611px;
+
+                            }
+
+
+                            .circle1 {
+                                width: 159.4176px;
+                                height: 157.4144px;
+                                position: absolute;
+                                top: 475px;
+                                left: 419px;
+
+
+                            }
+
+                            .circle2 {
+
+                                position: absolute;
+                                width: 194px;
+                                height: 192px;
+                                top: 457.5px;
+                                left: 401.0896px;
+
+                            }
+
+
+                            .circle3 {
+                                width: 230px;
+                                height: 228px;
+                                top: 439.68px;
+                                left: 382px;
+                                gap: 0px;
+                                position: absolute;
+
+
+                            }
+
+                            .mobile-app {
+                                position: absolute;
+                                width: 119px;
+                                height: 257px;
+                                top: 399px;
+                                left: 412px;
+
+                                img {
+                                    width: 174px;
+                                    height: 320px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .Fovourite_sidebar {
+                width: 74.24px;
+                height: 520.96px;
+                margin-top: 114px;
+                margin-left: 114px;
+                position: absolute;
+
+                .sidebar-text {
+                    margin-bottom: 88px;
+                    width: 74.24px;
+                    height: 37.12px;
+
+                    h1 {
+                        font-size: 83.2px;
+                        line-height: 50px;
+                    }
+
+                }
+            }
+
+            .Fovourite_footer {
+                background-image: url("../background_img/Background\ 1.png");
+                background-size: 100%;
+                width: 100%;
+                height: 246px;
+                margin-top: -23.2%;
+                background-repeat: no-repeat;
+                background-color: rgba(251, 236, 163, 1);
+
+
+            }
+
+        }
+
+    }
+}
+
+@include responsive_1280 {
+    body {
+        margin: 0;
+
+
+        #Fovourite {
+            width: 100%;
+            height: 960px;
+
+            .Fovourite_header {
+                // width: 100%;
+                height: 348.5px;
+                margin-top: 13.6px;
+                background-size: 1280px;
+                background-repeat: no-repeat;
+
+                .fovourite_header-text {
+                    position: absolute;
+                    margin-top: 12px;
+                    margin-left: 48.6px;
+                    font-size: 16px;
+                    line-height: 29.3px;
+
+
+                }
+            }
+
+            .Favourite_body {
+                width: 838.75px;
+                height: 100%;
+                margin-top: -293.75px;
+                margin-left: 315px;
+
+
+                .body_header {
+                    width: 90%;
+                    height: 383.58px;
+                    margin-top: 47.5px;
+                    margin-left: 47.5px;
+
+                    .body_header-content {
+                        width: 229.6px;
+                        height: 29px;
+
+                        h3 {
+                            width: 289px;
+                            height: 23.2px;
+                            font-size: 21.8px;
+                        }
+
+                        img {
+                            width: 86.25px;
+                            height: 14.41px;
+                            margin-top: -42.56px;
+                            margin-left: 127.5px;
+                        }
+                    }
+
+                    .body_header-banner {
+                        // width: 302.16px;
+                        // height: 208.32px;
+                        display: flex;
+                        justify-content: space-around;
+                        margin-top: 47.125px;
+
+                        .banner-img {
+                            margin-right: 21.73px;
+                            width: 100%;
+
+                            // img {
+                            //     width: 100%;
+                            //     height: auto;
+                            // }
+                        }
+
+                        .baner-content {
+
+                            font-size: 14.5px;
+
+                            margin-top: 14.8px;
+
+                            .font-max {
+                                font-size: 14.5px;
+
+                            }
+
+                            .font-min {
+                                font-size: 10.86px;
+
+
+                            }
+                        }
+
+                        button {
+                            padding: 0;
+                            margin-left: 329px;
+                            margin-top: -148.5px;
+
+                            img {
+                                width: 80%;
+                                height: auto;
+                            }
+                        }
+
+                        .body_footer {
+                            width: 228.75px;
+                            height: 172px;
+                            top: 617.6px;
+                            left: 99.8px;
+                            top: 612.5px;
+                            left: 99.8px;
+
+                            h2 {
+
+                                font-size: 21.727px;
+
+
+                            }
+
+                            p {
+
+                                font-size: 10.85px;
+
+
+                            }
+
+
+                        }
+
+                        .app_review {
+                            .dot1 {
+                                position: absolute;
+                                top: 556.6px;
+                                left: 482.5px;
+
+                            }
+
+                            .dot2 {
+                                position: absolute;
+                                top: 556.6px;
+                                left: 738.75px;
+
+                            }
+
+                            .dot3 {
+                                position: absolute;
+                                top: 834px;
+                                left: 467.5px;
+                            }
+
+                            .dot4 {
+                                position: absolute;
+                                top: 798px;
+                                left: 763px;
+
+                            }
+
+
+                            .circle1 {
+                                width: 199px;
+                                height: 196px;
+                                position: absolute;
+                                top: 593px;
+                                left: 524px;
+
+
+                            }
+
+                            .circle2 {
+
+                                position: absolute;
+                                width: 243px;
+                                height: 240px;
+                                top: 571px;
+                                left: 501px;
+
+                            }
+
+
+                            .circle3 {
+                                width: 287.5px;
+                                height: 285px;
+                                top: 550px;
+                                left: 477.5px;
+
+
+
+
+                            }
+
+                            .mobile-app {
+                                position: absolute;
+                                width: 149px;
+                                height: 312.25px;
+                                top: 498.75px;
+                                left: 515px;
+
+                                img {
+                                    width: 217px;
+                                    height: 400px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .Fovourite_sidebar {
+                width: 92.8px;
+                height: 650px;
+                margin-top: 170px;
+                margin-left: 142px;
+                position: absolute;
+
+                .sidebar-text {
+                    margin-bottom: 110px;
+                    width: 92.5px;
+                    height: 46.25px;
+
+                    h1 {
+                        font-size: 104px;
+
+                    }
+
+                }
+            }
+
+            .Fovourite_footer {
+
+                background-size: 100%;
+                width: 100%;
+                height: 307px;
+                margin-top: -23.2%;
+                background-repeat: no-repeat;
+
+
+
+            }
+
+        }
+
+    }
+}

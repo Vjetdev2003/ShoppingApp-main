@@ -1,0 +1,342 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  body {
+    margin: 0;
+  }
+  body #Fovourite {
+    width: 100%;
+    height: 768px;
+  }
+  body #Fovourite .Fovourite_header {
+    width: 100%;
+    height: 270.8px;
+    margin-top: 10.88px;
+    background-image: url("../background_img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  body #Fovourite .Fovourite_header .fovourite_header-text {
+    position: absolute;
+    margin-top: 9.6px;
+    margin-left: 39.68px;
+    font-size: 12.8px;
+    line-height: 23.44px;
+  }
+  body #Fovourite .Favourite_body {
+    width: 671px;
+    height: 100%;
+    margin-top: -235.52px;
+    margin-left: 252px;
+  }
+  body #Fovourite .Favourite_body .body_header {
+    width: 90%;
+    height: 306.87px;
+    margin-top: 38.72px;
+    margin-left: 37.74px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-content {
+    width: 183.68px;
+    height: 23.17px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-content h3 {
+    width: 184.96px;
+    height: 18.56px;
+    font-family: Poppins;
+    font-size: 17.38px;
+    line-height: 28.31px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-content img {
+    width: 68.83px;
+    height: 11.57px;
+    margin-top: -33.52px;
+    margin-left: 101.68px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 37.697px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .banner-img {
+    margin-right: 17.38px;
+    width: 100%;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .banner-img img {
+    width: 100%;
+    height: auto;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .baner-content {
+    font-size: 11.59px;
+    line-height: 28.31px;
+    margin-top: 11.84px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .baner-content .font-max {
+    font-size: 11.59px;
+    line-height: 18.12px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .baner-content .font-min {
+    font-size: 8.69px;
+    line-height: 28.31px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner button {
+    padding: 0;
+    margin-left: 263px;
+    margin-top: -119px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .body_footer {
+    width: 183.68px;
+    height: 138.7px;
+    top: 490.88px;
+    left: 79.84px;
+    top: 490.88px;
+    left: 79.86px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .body_footer h2 {
+    font-size: 17.38px;
+    line-height: 40.76px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .body_footer p {
+    font-size: 8.69px;
+    line-height: 19.81px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot1 {
+    position: absolute;
+    top: 445.228px;
+    left: 386.3808px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot2 {
+    position: absolute;
+    top: 445.228px;
+    left: 591.0848px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot3 {
+    position: absolute;
+    top: 667.6864px;
+    left: 374.0608px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot4 {
+    position: absolute;
+    top: 639.0656px;
+    left: 611px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .circle1 {
+    width: 159.4176px;
+    height: 157.4144px;
+    position: absolute;
+    top: 475px;
+    left: 419px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .circle2 {
+    position: absolute;
+    width: 194px;
+    height: 192px;
+    top: 457.5px;
+    left: 401.0896px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .circle3 {
+    width: 230px;
+    height: 228px;
+    top: 439.68px;
+    left: 382px;
+    gap: 0px;
+    position: absolute;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .mobile-app {
+    position: absolute;
+    width: 119px;
+    height: 257px;
+    top: 399px;
+    left: 412px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .mobile-app img {
+    width: 174px;
+    height: 320px;
+  }
+  body #Fovourite .Fovourite_sidebar {
+    width: 74.24px;
+    height: 520.96px;
+    margin-top: 114px;
+    margin-left: 114px;
+    position: absolute;
+  }
+  body #Fovourite .Fovourite_sidebar .sidebar-text {
+    margin-bottom: 88px;
+    width: 74.24px;
+    height: 37.12px;
+  }
+  body #Fovourite .Fovourite_sidebar .sidebar-text h1 {
+    font-size: 83.2px;
+    line-height: 50px;
+  }
+  body #Fovourite .Fovourite_footer {
+    background-image: url("../background_img/Background 1.png");
+    background-size: 100%;
+    width: 100%;
+    height: 246px;
+    margin-top: -23.2%;
+    background-repeat: no-repeat;
+    background-color: rgb(251, 236, 163);
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1500px) {
+  body {
+    margin: 0;
+  }
+  body #Fovourite {
+    width: 100%;
+    height: 960px;
+  }
+  body #Fovourite .Fovourite_header {
+    height: 348.5px;
+    margin-top: 13.6px;
+    background-size: 1280px;
+    background-repeat: no-repeat;
+  }
+  body #Fovourite .Fovourite_header .fovourite_header-text {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 48.6px;
+    font-size: 16px;
+    line-height: 29.3px;
+  }
+  body #Fovourite .Favourite_body {
+    width: 838.75px;
+    height: 100%;
+    margin-top: -293.75px;
+    margin-left: 315px;
+  }
+  body #Fovourite .Favourite_body .body_header {
+    width: 90%;
+    height: 383.58px;
+    margin-top: 47.5px;
+    margin-left: 47.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-content {
+    width: 229.6px;
+    height: 29px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-content h3 {
+    width: 289px;
+    height: 23.2px;
+    font-size: 21.8px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-content img {
+    width: 86.25px;
+    height: 14.41px;
+    margin-top: -42.56px;
+    margin-left: 127.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 47.125px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .banner-img {
+    margin-right: 21.73px;
+    width: 100%;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .baner-content {
+    font-size: 14.5px;
+    margin-top: 14.8px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .baner-content .font-max {
+    font-size: 14.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .baner-content .font-min {
+    font-size: 10.86px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner button {
+    padding: 0;
+    margin-left: 329px;
+    margin-top: -148.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner button img {
+    width: 80%;
+    height: auto;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .body_footer {
+    width: 228.75px;
+    height: 172px;
+    top: 617.6px;
+    left: 99.8px;
+    top: 612.5px;
+    left: 99.8px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .body_footer h2 {
+    font-size: 21.727px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .body_footer p {
+    font-size: 10.85px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot1 {
+    position: absolute;
+    top: 556.6px;
+    left: 482.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot2 {
+    position: absolute;
+    top: 556.6px;
+    left: 738.75px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot3 {
+    position: absolute;
+    top: 834px;
+    left: 467.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .dot4 {
+    position: absolute;
+    top: 798px;
+    left: 763px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .circle1 {
+    width: 199px;
+    height: 196px;
+    position: absolute;
+    top: 593px;
+    left: 524px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .circle2 {
+    position: absolute;
+    width: 243px;
+    height: 240px;
+    top: 571px;
+    left: 501px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .circle3 {
+    width: 287.5px;
+    height: 285px;
+    top: 550px;
+    left: 477.5px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .mobile-app {
+    position: absolute;
+    width: 149px;
+    height: 312.25px;
+    top: 498.75px;
+    left: 515px;
+  }
+  body #Fovourite .Favourite_body .body_header .body_header-banner .app_review .mobile-app img {
+    width: 217px;
+    height: 400px;
+  }
+  body #Fovourite .Fovourite_sidebar {
+    width: 92.8px;
+    height: 650px;
+    margin-top: 170px;
+    margin-left: 142px;
+    position: absolute;
+  }
+  body #Fovourite .Fovourite_sidebar .sidebar-text {
+    margin-bottom: 110px;
+    width: 92.5px;
+    height: 46.25px;
+  }
+  body #Fovourite .Fovourite_sidebar .sidebar-text h1 {
+    font-size: 104px;
+  }
+  body #Fovourite .Fovourite_footer {
+    background-size: 100%;
+    width: 100%;
+    height: 307px;
+    margin-top: -23.2%;
+    background-repeat: no-repeat;
+  }
+}/*# sourceMappingURL=FavoriteReponsive.css.map */

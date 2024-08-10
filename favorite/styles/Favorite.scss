@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+
+
+    #Fovourite {
+        width: 100%;
+        height: 1200px;
+        background-color: rgba(251, 236, 163, 1);
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .Fovourite_header {
+            width: 100%;
+            height: 422px;
+            margin-top: 17px;
+            background-image: url("../background_img/Background.png");
+
+
+            .fovourite_header-text {
+                position: absolute;
+                margin-top: 15px;
+                margin-left: 62px;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 1);
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23.44px;
+                text-align: left;
+
+            }
+        }
+
+        .Favourite_body {
+            width: 1049px;
+            height: 100%;
+            margin-top: -368px;
+            margin-left: 358px;
+            background-color: rgba(255, 255, 255, 1);
+            position: relative;
+
+            .body_header {
+                width: 90%;
+                height: 479.49px;
+                margin-top: 60.5px;
+                margin-left: 57.42px;
+
+                .body_header-content {
+                    width: 289px;
+                    height: 36.21px;
+
+                    h3 {
+                        width: 289px;
+                        height: 29px;
+                        font-family: Poppins;
+                        font-size: 27.17px;
+                        font-weight: 900;
+                        line-height: 28.31px;
+                        letter-spacing: 0.06em;
+                        text-align: left;
+                        position: relative;
+                    }
+
+                    img {
+                        width: 107.56px;
+                        height: 18.09px;
+                        margin-top: -52.38px;
+                        margin-left: 158.88px;
+                    }
+                }
+
+                .body_header-banner {
+                    // width: 472.13px;
+                    // height: 325.51px;
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 58.9px;
+
+                    .banner-img {
+                        margin-right: 27.17px;
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .baner-content {
+                        font-family: Poppins;
+                        font-size: 18.12px;
+                        font-weight: 500;
+                        line-height: 28.31px;
+                        letter-spacing: -0.04em;
+                        text-align: left;
+                        margin-top: 18.5px;
+
+                        .font-max {
+                            color: rgba(0, 0, 0, 1);
+                            font-size: 18.12px;
+                            font-weight: 500;
+                            line-height: 28.31px;
+                            letter-spacing: -0.04em;
+                            text-align: left;
+                            margin-bottom: 0;
+
+                        }
+
+                        .font-min {
+                            font-size: 13.59px;
+                            font-weight: 500;
+                            line-height: 28.31px;
+                            letter-spacing: -0.04em;
+                            text-align: left;
+                            color: rgba(127, 127, 127, 1);
+
+                        }
+
+                    }
+
+                    button {
+                        padding: 0;
+                        margin-left: 422px;
+                        margin-top: -127px;
+                    }
+
+                    .body_footer {
+                        width: 287px;
+                        height: 216.73px;
+                        top: 767px;
+                        left: 124.79px;
+                        position: absolute;
+                        top: 767px;
+                        left: 124.79px;
+
+                        h2 {
+                            font-family: Poppins;
+                            font-size: 27.17px;
+                            font-weight: 900;
+                            line-height: 40.76px;
+                            letter-spacing: 0.06em;
+                            text-align: left;
+                            color: rgba(0, 0, 0, 1);
+
+                        }
+
+                        p {
+                            font-family: Poppins;
+                            font-size: 13.59px;
+                            font-weight: 500;
+                            line-height: 19.81px;
+                            letter-spacing: -0.04em;
+                            text-align: left;
+                            color: rgba(124, 124, 124, 1);
+                        }
+
+
+                    }
+
+                    .app_review {
+                        .dot1 {
+                            position: absolute;
+                            top: 695.67px;
+                            left: 603.72px;
+
+                        }
+
+                        .dot2 {
+                            position: absolute;
+                            top: 687.18px;
+                            left: 923.57px;
+
+                        }
+
+                        .dot3 {
+                            position: absolute;
+                            top: 1043.26px;
+                            left: 584.47px;
+                        }
+
+                        .dot4 {
+                            position: absolute;
+                            top: 998.54px;
+                            left: 954.7px;
+
+                        }
+
+
+                        .circle1 {
+                            width: 249.09px;
+                            height: 245.96px;
+                            position: absolute;
+                            top: 742.66px;
+                            left: 655.23px;
+                            border: 0.98px solid rgba(239, 236, 235, 1);
+
+                            border-radius: 50%;
+
+                        }
+
+                        .circle2 {
+
+                            position: absolute;
+                            width: 304px;
+                            height: 300.18px;
+                            top: 715.49px;
+                            left: 631.46px;
+                            border: 0.98px solid rgba(239, 236, 235, 1);
+                            border-radius: 50%;
+
+                        }
+
+
+                        .circle3 {
+                            width: 360.61px;
+                            height: 356.08px;
+                            top: 687.18px;
+                            left: 603.72px;
+                            gap: 0px;
+                            position: absolute;
+                            border: 0.98px solid rgba(239, 236, 235, 1);
+                            border-radius: 50%;
+
+                        }
+
+                        .mobile-app {
+                            position: absolute;
+                            width: 185.62px;
+                            height: 401.94px;
+                            top: 624.54px;
+                            left: 643.98px;
+                            gap: 0px;
+                            border-radius: 19.8px 0px 0px 0px;
+                            border: 12.78px 0px 0px 0px;
+
+
+                        }
+                    }
+                }
+
+
+
+
+            }
+
+        }
+
+        .Fovourite_sidebar {
+            width: 116px;
+            height: 814px;
+            margin-top: 225px;
+            margin-left: 178px;
+            position: absolute;
+
+            .sidebar-text {
+                margin-bottom: 131px;
+                width: 116px;
+                height: 58px;
+
+                h1 {
+
+
+                    font-family: Poppins;
+                    font-size: 130px;
+                    font-weight: 700;
+                    line-height: 50px;
+                    letter-spacing: 0.03em;
+                    text-align: left;
+                    color: rgba(253, 210, 0, 1);
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                }
+
+            }
+        }
+
+        .Fovourite_footer {
+            background-image: url("../background_img/Background\ 1.png");
+            width: 100%;
+            height: 383.82px;
+            margin-top: -25.2%;
+            background-repeat: no-repeat;
+            background-color: rgba(251, 236, 163, 1);
+
+
+        }
+
+    }
+
+}
